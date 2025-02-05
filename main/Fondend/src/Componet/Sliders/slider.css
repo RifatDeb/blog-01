@@ -1,0 +1,10 @@
+.image-size {
+  width: 100vw;
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h1 {
+  color: #e31818;
+}/*# sourceMappingURL=slider.css.map */

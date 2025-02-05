@@ -1,0 +1,93 @@
+
+.descrition{
+
+
+   p{
+      padding: 5px;
+      text-align: left;
+   }
+   h3{
+      padding: 5px;
+      text-align: left;
+   }
+
+}
+
+
+.blog-image{
+   max-width: 320px;
+}
+
+
+
+
+
+// -----singelBlog-------------
+
+.image{
+   width: 95%;
+   height: 90vh;
+   object-fit: cover;
+   object-position: center;
+}
+
+.blog-view{
+   display: flex;
+   text-align: center;
+   align-items: center;
+}
+
+.blog-conunt{
+   font-weight: 700;
+   color: rgb(222, 6, 46);
+
+   padding-left: 20px;
+
+}
+
+.Submite-btn{
+   background-color: rgb(215, 121, 204);
+   font-size: 18px;
+}
+
+.profile-avater{
+   width: 80px;
+   height: 70px;
+  text-align: center;
+  align-items: center;
+
+}
+
+.user-section{
+   display: flex;
+}
+.profile-image{
+   object-fit: cover;
+   width: 50px;
+   border-radius: 70%;
+   height: 50px;
+}
+
+.comment-text{
+   padding-left: 70px;
+}
+
+
+@media screen and (max-width:767px) {
+
+   .descrition{
+      text-align: center;
+      align-items: center;
+   }
+   .image_section{
+      text-align: center;
+      align-items: center;
+      
+      
+   }
+
+   .blog-image{
+      width: 100%;
+      object-fit: cover;
+   }
+}
